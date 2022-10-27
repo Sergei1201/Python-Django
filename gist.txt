@@ -1,0 +1,15 @@
+1. Run pip install pipenv
+2. Run pipenv shell (to create a virtual environment for our project)
+3. Run pipenv install django (to install django)
+4. Run django-admin startproject (name of the project)
+5. CD into the project directory
+6. Run python manage.py runserver (to run a server)
+7. Run python manage.py migrate (to create migration from the preinstalled database, in our case it's SQL lite)
+8. Run python manage.py startapp (a name of the app)
+9. Create models for our application (classes in models.py file and relationships between them)
+10. Add our app to installed apps in settings.py file
+11. Make a migration (python manage.py makemigration (name of the app)
+12. Run the migration to put data into the database (python manage.py migrate)
+13. Create data from within the shell (python manage.py shell)
+14. Create a super user in the database
+15.
